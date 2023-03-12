@@ -159,6 +159,7 @@ public class connect_4 {
 		}
 
 		for (int p = 1; p < 3; p++) {
+			
 			for (int i = 0; i < b.length; i++) {
 				for (int j = 0; j < b[i].length - 3; j++) {
 					if (b[i][j] == p && b[i][j+1] == p && b[i][j+2] == p && b[i][j+3] == p) {
@@ -198,26 +199,12 @@ public class connect_4 {
 			}
 			
 			
-		}//end of method
+		}//end of player loop
 
 
 
 		return true;
-	}
-	
-	public static int correctUserInput(int playerInput, int playerTag, int max, int min) {
-		//do I use this method at all???
-		
-		if(playerInput >= min && playerInput <= max) return playerInput;
-		//playerInput was good so it was returned
-		
-		//playerInput is now bad, ask user again.
-		
-		Scanner input = new Scanner(System.in);
-		System.out.println("Input was bad, please pick a int in the ranges of " + min + "-" + max);
-		int newPlayerInput = input.nextInt() -1;
-		
-		return correctUserInput(playerInput, playerTag, max, min);	//should work
-	}
+	}//end of method
 
-}
+
+}//end of class
