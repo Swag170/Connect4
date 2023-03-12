@@ -117,7 +117,7 @@ public class connect_4 {
 				String convert = ".";
 				if (board[i][j] == 1)
 					convert = "O";
-				if (board[i][j] == 2)
+				else if (board[i][j] == 2)
 					convert = "X";
 				System.out.print("|" + convert);
 
