@@ -1,9 +1,9 @@
 # Connect4
 
-Two Connect 4 games! one made in Java and the other in C.
-both are text-based so it would just runs on your console.
+Two Connect 4 games! One made in Java and the other in C.
+Both are text-based so it would just run on your console.
 
-pretty much the same thing but the java version has less bugs I think. 
-C is not bad though because I made it look better then the Java version.
+Pretty much the same thing but the java version has less bugs I think. 
+C is not bad though because I made it look way better then the Java version.
 
-all the bugs these two have aren't real big ones and basically won't break.
+All the bugs these two have aren't real big ones and basically won't break.
