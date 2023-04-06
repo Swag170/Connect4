@@ -7,3 +7,6 @@ Pretty much the same thing but the java version has less bugs I think.
 C is not bad though because I made it look way better then the Java version.
 
 All the bugs these two have aren't real big ones and basically won't break.
+
+C4Updated.c has its win checker {gameStillActive()} to be multithreaded!!!
+And uses some pointers here and there.
