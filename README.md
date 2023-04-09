@@ -10,3 +10,5 @@ All the bugs these two have aren't real big ones and basically won't break.
 
 C4Updated.c has its win checker {gameStillActive()} to be multithreaded!!!
 And uses some pointers here and there.
+
+C4V3.c is the fastest version and focusses on just being efficient with everything!
