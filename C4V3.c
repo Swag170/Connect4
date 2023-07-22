@@ -35,9 +35,9 @@ int t0, t1, t2, t3, winningPlayer;
 
 void main () {
 
+  int N;
   int playerNumber = 0;
   char playerText[2][20] = {"Player 1|O's turn!","Player 2|X's turn!"};;
-  int N;
 
   bool gameActive = true;
 
