@@ -8,7 +8,7 @@
 #include <pthread.h>	//Importing the Pthread Library
 
 //to run the program
-//	gcc -pthread C4V3.c			//C4Updated == name so yours might be different
+//	gcc -pthread C4V3.c			//C4V3== name so yours might be different
 //	./a.out
 //should be close to that
 
@@ -30,7 +30,7 @@ int sizeAll = (int)(sizeof(board) / sizeof(board[0][0]));
 int sizeOne = (int)(sizeof(board) / sizeof(board[0]));
 int sizeTwo = (int)(sizeof(board[0]) / sizeof(board[0][0]));
 
-pthread_t tid1, tid2, tid3;                /* The thread ids for each thread */
+pthread_t tid1, tid2, tid3;                /* The thread IDs for each thread */
 int t0, t1, t2, t3, winningPlayer;
 
 void main () {
@@ -63,7 +63,7 @@ void main () {
 
 int getNum(){
   int N = -1;
-  char tempFix[50];//should probs change to 50
+  char tempFix[50];//Temp fix to user input error
   do{
   //printf("ready for input!\n");
   scanf("%s",tempFix);
